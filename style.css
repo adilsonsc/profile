@@ -1,0 +1,80 @@
+body {
+  color: 056676;
+  background: e8ded2;
+  font-family: arial;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+
+
+h1 {
+  color: 5eaaa8;
+  font-size: 30px;
+
+}
+
+p {
+  color: blue;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#foto {
+  border: 2px solid blue;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.test {
+  border: 1px solid f7f2e7;
+
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.icon-bigger {
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
